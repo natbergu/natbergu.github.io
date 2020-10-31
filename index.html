@@ -38,6 +38,14 @@
         <hr noshade>
         <h3 id="projects">Recent Projects</h3>
         <ul>
+            <li>templeton robotics website remake</li>
+            <ul><i>
+                <li>i remade the templeton robotics website to be better looking, have cleaner code,<br>
+                and be easier for future robotics students to modify.</li>
+                <li>i tried to stick as close as possible to the previous website's overall layout.</li>
+                <li><a href="https://templetonrobotics.ca/" target="_blank">website</a></li>
+                <li><a href="https://github.com/TempletonRobotics7190/TempletonRobotics7190.github.io" target="_blank">code</a></li>
+            </i></ul>
             <li>random python creations 2018(?)-present</li>
             <ul><li><i>simple little things i make for fun - <a href="https://www.github.com/natbergu/python" target="_blank">repo</a></i></li></ul>
             <li>templeton rainstorms (FRC team 7190) robot programming</li>
@@ -56,11 +64,19 @@
         <i>
             <dl>
                 <dt>Cell: (604) 319-3227</dt>
-                <dt>Email: ncwb2048(at)gmail.com</dt><br>
+                <dt id="email">Email: ncwb two zero four eight at gmail dot com</dt><br>
                 <dt>Nathaniel Berger</dt>
                 <dt>2048 E. Pender St.</dt>
                 <dt>Vancouver, BC V5L1W9</dt>
             </dl>
         </i>
+        <script>
+            var name = "ncwb2048";
+            var at = "@"
+            var website = "gmail"
+            var dot = "."
+            var com = "com"
+            document.getElementById('email').innerHTML = ("Email: " + name + at + website + dot + com)
+        </script>
     </body>
 </html>
